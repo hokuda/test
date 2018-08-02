@@ -1,6 +1,5 @@
 # How to automate steps to provide debuginfo for RHEL7 core
 
----
 
 In order to analyze RHEL7 core on Fedora 2x resolving symbols, you need to:
 
