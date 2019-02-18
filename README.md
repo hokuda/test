@@ -1,8 +1,8 @@
 # ciphersuites-map
 
 Show ciphersuites mapping of IANA, OpenSSL, and JSSE in JSON, merging:
-* `openssl ciphers -V ALL:COMPLEMENTOFALL`
 * https://www.iana.org/assignments/tls-parameters/tls-parameters-4.csv
+* `openssl ciphers -V ALL:COMPLEMENTOFALL`
 * `sun.security.ssl.CipherSuite#idMap`
 
 ## prerequisite
@@ -12,11 +12,8 @@ Show ciphersuites mapping of IANA, OpenSSL, and JSSE in JSON, merging:
         $ pip3 install py4j --user
 
   or
+
         # pip3 install py4j
-
-  or
-
-        # dnf install python3-py4j
 
 ## usage
 
